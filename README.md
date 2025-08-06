@@ -277,8 +277,8 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 ## 📞 Contact
 
-- GitHub Issues: [Report bugs](https://github.com/your-username/focusguard/issues)
-- Email: your-email@example.com
+
+- Email: caolecongthanh@gmail.com
 
 ## 🙏 Acknowledgments
 
