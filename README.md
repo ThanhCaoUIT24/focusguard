@@ -275,11 +275,14 @@ We welcome all contributions! Please:
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
+<<<<<<< HEAD
 ## 📞 Contact
 
 
 - Email: caolecongthanh@gmail.com
 
+=======
+>>>>>>> dbee682 (Initial commit)
 ## 🙏 Acknowledgments
 
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) - GUI framework
@@ -289,4 +292,4 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 ---
 
-**🎯 Focus to succeed! Just one command: `sudo ./run_clean.sh`**
+**🎯 Focus to succeed! Just one command: `./run_clean.sh`**

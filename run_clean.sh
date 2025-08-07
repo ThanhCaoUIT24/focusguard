@@ -28,3 +28,5 @@ exec env -i \
     USER=$USER \
     XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR:-/tmp/runtime-$USER} \
     /usr/bin/python3.12 main.py "$@"
+
+"$0.run_clean.sh"

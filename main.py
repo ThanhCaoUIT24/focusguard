@@ -97,11 +97,21 @@ def main():
     
     app = FocusGuardApp(sys.argv)
     print("Application created successfully")
-    
+
+    # Always clean up leftover blocks at startup
+    try:
+        from src.core.website_blocker import WebsiteBlocker
+        blocker = WebsiteBlocker(app.config_manager.get_backup_hosts_path())
+        if blocker.is_blocking_active():
+            print("Cleaning up leftover website blocks from previous session...")
+            blocker.remove_block_entries()
+    except Exception as e:
+        print(f"Error cleaning up hosts file: {e}")
+
     if not app.initialize():
         print("Failed to initialize application")
         return 1
-    
+
     print("Application initialized, starting event loop...")
     return app.exec_()
 
